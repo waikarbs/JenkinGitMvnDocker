@@ -30,11 +30,5 @@ public class TestGreeter
     	
     }
     
-    @Test
-    public void greetShouldIncludeGreetingPhrase1(){
-    	String someone ="World";
-    	Assert.assertEquals(greeter.greet(someone).length(), 13);
-    	
-    }
-    
+       
 }
